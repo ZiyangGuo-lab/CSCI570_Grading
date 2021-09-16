@@ -31,8 +31,8 @@ def grade(student_input, answers, penalty, maxloss):
 
 
 # Examples: 
-# correct answers can be cdghifaejb or cdhgifaejb
+# correct answers can be dhifacjbeg or dhfacjibeg
 
-print("Student with answer abcdefhgji loses points:",grade('abcdefhgji', ['cdghifaejb'], 2, 10))
-print("Student with answer abcdefghij loses points:",grade('abcdefghij', ['cdghifaejb'], 2, 10))
-print("Student with answer cdhgifaejb loses points:",grade('cdhgifaejb', ['cdghifaejb','cdhgifaejb'], 2, 10))
+print("Student with answer abcdefhgji loses points:",grade('abcdefhgji', ['dhifacjbeg','dhfacjibeg'], 2, 10))
+print("Student with answer dhjfacibeg loses points:",grade('dhjfacibeg', ['dhifacjbeg','dhfacjibeg'], 2, 10))
+print("Student with answer dhfacjibeg loses points:",grade('dhfacjibeg', ['dhifacjbeg','dhfacjibeg'], 2, 10))
